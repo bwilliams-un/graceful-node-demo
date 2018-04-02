@@ -1,0 +1,19 @@
+{
+  "name": "graceful-node-demo",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brett Williams"
+  },
+  "description": "demo web app for graceful shutdown and reload",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "dependencies": {
+    "koa": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
